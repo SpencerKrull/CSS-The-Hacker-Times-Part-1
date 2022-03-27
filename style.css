@@ -1,1 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+.newspaper-container {
+    box-shadow: 10px 5px 5px black;
+    padding: 1em;
+    width: 800px;
+    border-radius: 10px;
+    margin: auto;
+    border: 1px solid black;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 310%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    display: block;
+    padding-right: 10px;
+    text-align: center;
+    color: #777;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    font-family: arial;
+    font-size: 90%;
+}
+
+li {
+    display: inline-block;
+    padding: .5em;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+h5 {
+    color: #dd3232;
+}
+
+main {
+    text-align: justify;
+    font-family: helvetica;
+}
+
+.more-articles {
+    text-align: justify;
+    font-family: helvetica;
+}
+
+.date {
+    font-family: arial;
+}
